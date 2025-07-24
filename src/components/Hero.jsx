@@ -110,7 +110,7 @@ const Hero = () => {
               loadedElements.overview
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-10"
-            } text-justify w-full md:max-w-[70%] lg:max-w-[50%] xl:max-w-[35%] text-gray-200`}
+            } text-justify text-sm lg:text-md xl:text-lg w-full  md:max-w-[70%] lg:max-w-[50%] xl:max-w-[35%] text-gray-200`}
           >
             {isExpanded ? overview : overview.slice(0, 150)}
             {overview.length > 150 && (

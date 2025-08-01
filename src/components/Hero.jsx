@@ -45,7 +45,7 @@ const Hero = () => {
   if (!movie) {
     return (
       <div className="relative w-full h-screen min-h-[550px] flex items-center justify-center bg-black">
-        <div className="text-white text-2xl animate-pulse">Loading...</div>
+        <div className="text-white text-2xl animate-pulse"></div>
       </div>
     );
   }

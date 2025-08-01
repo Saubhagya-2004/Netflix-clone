@@ -5,9 +5,11 @@ import Login from "./pages/Login.jsx"
 import Profile from "./pages/Profile.jsx"
 import Signup from "./pages/SignUp.jsx"
 import Navbar from './components/Navbar.jsx'
+import { AuthContextProvider } from './context/Authcontext.jsx'
 
 const App = () => {
   return (
+    <AuthContextProvider>
     <BrowserRouter>
     <Navbar/>
       <Routes>
@@ -17,6 +19,7 @@ const App = () => {
         <Route path="/profile" element={<Profile />} />
       </Routes>
     </BrowserRouter>
+    </AuthContextProvider>
   )
 }
 

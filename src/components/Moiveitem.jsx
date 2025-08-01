@@ -28,7 +28,7 @@ const togglelike=()=>{
         {like ? (
           <TiHeartFullOutline className='text-red-700 duration-500' size={25} />
         ) : (
-          <GoHeart size={18} className='text-white' />
+          <GoHeart size={23} className='text-white' />
         )}
       </div>
     </div>
